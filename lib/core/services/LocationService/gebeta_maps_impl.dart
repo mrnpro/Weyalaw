@@ -1,9 +1,9 @@
 import 'dart:convert';
 
-import 'package:go_find_taxi/core/services/LocationService/models/direction.dart';
-import 'package:go_find_taxi/core/services/LocationService/models/geo_coding_response.dart';
-import 'package:go_find_taxi/core/services/LocationService/models/reverse_geocoding_response.dart';
-import 'package:go_find_taxi/core/utils/index.dart';
+import 'package:weyalaw/core/services/LocationService/models/direction.dart';
+import 'package:weyalaw/core/services/LocationService/models/geo_coding_response.dart';
+import 'package:weyalaw/core/services/LocationService/models/reverse_geocoding_response.dart';
+import 'package:weyalaw/core/utils/index.dart';
 import 'package:google_maps_widget/google_maps_widget.dart';
 import 'package:http/http.dart' as http;
 import 'location_service.dart';

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:go_find_taxi/_shared/presentation/widgets/back_btn.dart';
-import 'package:go_find_taxi/core/constants.dart';
+import 'package:weyalaw/_shared/presentation/widgets/back_btn.dart';
+import 'package:weyalaw/core/constants.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 import '../../../data/models/transport_place_model.dart';

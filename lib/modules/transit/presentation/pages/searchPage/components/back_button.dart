@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:go_find_taxi/_shared/presentation/widgets/back_btn.dart';
+import 'package:weyalaw/_shared/presentation/widgets/back_btn.dart';
 
 class BackButtonWidget extends StatelessWidget {
   const BackButtonWidget({super.key});

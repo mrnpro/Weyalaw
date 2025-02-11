@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:go_find_taxi/modules/transit/data/repositories/remote/i_route_remote.dart';
+import 'package:weyalaw/modules/transit/data/repositories/remote/i_route_remote.dart';
 import 'package:go_router/go_router.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 

@@ -1,4 +1,4 @@
-import 'package:go_find_taxi/core/utils/index.dart';
+import 'package:weyalaw/core/utils/index.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 class RiverpodLogger extends ProviderObserver {

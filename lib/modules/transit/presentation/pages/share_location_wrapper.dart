@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:go_find_taxi/modules/transit/data/models/transport_place_model.dart';
+import 'package:weyalaw/modules/transit/data/models/transport_place_model.dart';
 import 'package:go_router/go_router.dart';
 import 'package:google_maps_widget/google_maps_widget.dart';
 

@@ -1,5 +1,5 @@
-import 'package:go_find_taxi/core/constants.dart';
-import 'package:go_find_taxi/core/services/LocationService/location_service.dart';
+import 'package:weyalaw/core/constants.dart';
+import 'package:weyalaw/core/services/LocationService/location_service.dart';
 import 'package:google_maps_widget/google_maps_widget.dart';
 
 import '../../../../core/services/LocationService/models/geo_coding_response.dart';

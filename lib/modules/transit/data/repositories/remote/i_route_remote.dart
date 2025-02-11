@@ -21,7 +21,7 @@
 /// swapped or mocked for testing purposes.
 library;
 
-import 'package:go_find_taxi/core/handlers/result.dart';
+import 'package:weyalaw/core/handlers/result.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 import '../../../../../core/services/LocationService/location_service.dart';

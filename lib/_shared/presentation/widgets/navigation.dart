@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:go_find_taxi/core/config/theme/color_pallete.dart';
-import 'package:go_find_taxi/core/constants/assets.dart';
+import 'package:weyalaw/core/config/theme/color_pallete.dart';
+import 'package:weyalaw/core/constants/assets.dart';
 import 'package:go_router/go_router.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 

@@ -1,5 +1,5 @@
-import 'package:go_find_taxi/core/handlers/result.dart';
-import 'package:go_find_taxi/modules/transit/data/repositories/remote/i_route_remote.dart';
+import 'package:weyalaw/core/handlers/result.dart';
+import 'package:weyalaw/modules/transit/data/repositories/remote/i_route_remote.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 import 'state/search_route_state.dart';
 part 'search_route_notifier.g.dart';

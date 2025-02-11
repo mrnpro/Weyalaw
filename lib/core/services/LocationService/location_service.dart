@@ -1,8 +1,8 @@
 import 'dart:async';
 
-import 'package:go_find_taxi/core/services/LocationService/from_server_impl.dart';
-import 'package:go_find_taxi/core/services/LocationService/google_map_impl.dart';
-import 'package:go_find_taxi/core/services/LocationService/models/geo_coding_response.dart';
+import 'package:weyalaw/core/services/LocationService/from_server_impl.dart';
+import 'package:weyalaw/core/services/LocationService/google_map_impl.dart';
+import 'package:weyalaw/core/services/LocationService/models/geo_coding_response.dart';
 import 'package:google_maps_widget/google_maps_widget.dart';
 
 import '../../utils/index.dart';

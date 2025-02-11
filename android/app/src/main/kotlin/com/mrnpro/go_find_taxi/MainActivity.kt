@@ -1,4 +1,4 @@
-package com.mrnpro.go_find_taxi
+package com.mrnpro.weyalaw
 
 import io.flutter.embedding.android.FlutterActivity
 

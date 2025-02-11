@@ -1,14 +1,14 @@
 import 'dart:convert';
 
-import 'package:go_find_taxi/core/handlers/result.dart';
-import 'package:go_find_taxi/core/handlers/success/success.dart';
-import 'package:go_find_taxi/core/services/LocationService/location_service.dart';
-import 'package:go_find_taxi/core/services/index.dart';
-import 'package:go_find_taxi/core/utils/index.dart';
-import 'package:go_find_taxi/main.dart';
-import 'package:go_find_taxi/modules/transit/data/datasource/transit_data_source.dart';
-import 'package:go_find_taxi/modules/transit/data/models/transport_place_model.dart';
-import 'package:go_find_taxi/modules/transit/entities/transport_option_entity.dart';
+import 'package:weyalaw/core/handlers/result.dart';
+import 'package:weyalaw/core/handlers/success/success.dart';
+import 'package:weyalaw/core/services/LocationService/location_service.dart';
+import 'package:weyalaw/core/services/index.dart';
+import 'package:weyalaw/core/utils/index.dart';
+import 'package:weyalaw/main.dart';
+import 'package:weyalaw/modules/transit/data/datasource/transit_data_source.dart';
+import 'package:weyalaw/modules/transit/data/models/transport_place_model.dart';
+import 'package:weyalaw/modules/transit/entities/transport_option_entity.dart';
 
 import '../../../../../core/constants.dart';
 import '../../../../../core/handlers/failure/failure.dart';

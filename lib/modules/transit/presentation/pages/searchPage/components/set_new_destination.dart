@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
-import 'package:go_find_taxi/_shared/presentation/widgets/app_container.dart';
+import 'package:weyalaw/_shared/presentation/widgets/app_container.dart';
 
 class SetNewDestination extends StatelessWidget {
   const SetNewDestination({super.key});

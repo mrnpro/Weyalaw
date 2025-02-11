@@ -1,4 +1,4 @@
-import 'package:go_find_taxi/modules/transit/data/models/redat-model/coordinates_redatmodel.dart';
+import 'package:weyalaw/modules/transit/data/models/redat-model/coordinates_redatmodel.dart';
 
 import '../../../entities/transport_step_entity.dart';
 import 'place_redatmodel.dart';

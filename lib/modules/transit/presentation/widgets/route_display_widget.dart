@@ -4,9 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:gap/gap.dart';
-import 'package:go_find_taxi/core/config/theme/color_pallete.dart';
-import 'package:go_find_taxi/core/constants/assets.dart';
-import 'package:go_find_taxi/core/extentions/app_shimmer.dart';
+import 'package:weyalaw/core/config/theme/color_pallete.dart';
+import 'package:weyalaw/core/constants/assets.dart';
+import 'package:weyalaw/core/extentions/app_shimmer.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 import '../../../../_shared/presentation/widgets/app_container.dart';

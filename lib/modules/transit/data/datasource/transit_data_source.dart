@@ -1,4 +1,4 @@
-import 'package:go_find_taxi/modules/transit/entities/transport_option_entity.dart';
+import 'package:weyalaw/modules/transit/entities/transport_option_entity.dart';
 
 import '../../../../core/handlers/result.dart';
 import '../models/transport_place_model.dart';

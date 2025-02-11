@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:go_find_taxi/core/utils/index.dart';
+import 'package:weyalaw/core/utils/index.dart';
 
 void safeUiApiCall<T>(BuildContext context,
     {required Future<T> Function() apiCall,

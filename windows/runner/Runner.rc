@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.mrnpro" "\0"
-            VALUE "FileDescription", "go_find_taxi" "\0"
+            VALUE "FileDescription", "weyalaw" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "go_find_taxi" "\0"
+            VALUE "InternalName", "weyalaw" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2024 com.mrnpro. All rights reserved." "\0"
-            VALUE "OriginalFilename", "go_find_taxi.exe" "\0"
-            VALUE "ProductName", "go_find_taxi" "\0"
+            VALUE "OriginalFilename", "weyalaw.exe" "\0"
+            VALUE "ProductName", "weyalaw" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

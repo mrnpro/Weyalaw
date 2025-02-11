@@ -1,8 +1,8 @@
-import 'package:go_find_taxi/core/handlers/result.dart';
-import 'package:go_find_taxi/core/services/OnlineService/httpService/http_service.dart';
-import 'package:go_find_taxi/modules/transit/data/datasource/transit_data_source.dart';
-import 'package:go_find_taxi/modules/transit/data/models/transport_place_model.dart';
-import 'package:go_find_taxi/modules/transit/data/models/weyalaw-model/transport_option_weyalawmodel.dart';
+import 'package:weyalaw/core/handlers/result.dart';
+import 'package:weyalaw/core/services/OnlineService/httpService/http_service.dart';
+import 'package:weyalaw/modules/transit/data/datasource/transit_data_source.dart';
+import 'package:weyalaw/modules/transit/data/models/transport_place_model.dart';
+import 'package:weyalaw/modules/transit/data/models/weyalaw-model/transport_option_weyalawmodel.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 import '../../../../core/config/api/api_endpoints.dart';

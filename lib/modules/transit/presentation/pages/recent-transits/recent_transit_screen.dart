@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:go_find_taxi/_shared/presentation/widgets/app_container.dart';
-import 'package:go_find_taxi/modules/transit/presentation/providers/get-recent-transits/recent_transits_provider.dart';
-import 'package:go_find_taxi/modules/transit/presentation/widgets/route_display_widget.dart';
+import 'package:weyalaw/_shared/presentation/widgets/app_container.dart';
+import 'package:weyalaw/modules/transit/presentation/providers/get-recent-transits/recent_transits_provider.dart';
+import 'package:weyalaw/modules/transit/presentation/widgets/route_display_widget.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../../../../core/config/router/route_name.dart';

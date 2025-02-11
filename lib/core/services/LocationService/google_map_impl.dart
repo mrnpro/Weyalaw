@@ -1,7 +1,7 @@
-import 'package:go_find_taxi/core/services/LocationService/location_service.dart';
-import 'package:go_find_taxi/core/services/LocationService/models/direction.dart';
-import 'package:go_find_taxi/core/services/LocationService/models/geo_coding_response.dart';
-import 'package:go_find_taxi/core/services/LocationService/models/reverse_geocoding_response.dart';
+import 'package:weyalaw/core/services/LocationService/location_service.dart';
+import 'package:weyalaw/core/services/LocationService/models/direction.dart';
+import 'package:weyalaw/core/services/LocationService/models/geo_coding_response.dart';
+import 'package:weyalaw/core/services/LocationService/models/reverse_geocoding_response.dart';
 import 'package:google_maps_flutter_platform_interface/src/types/location.dart';
 
 class GoogleMapImpl extends LocationService {

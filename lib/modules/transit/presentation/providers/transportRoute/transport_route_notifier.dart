@@ -1,4 +1,4 @@
-// import 'package:go_find_taxi/core/handlers/result.dart';
+// import 'package:weyalaw/core/handlers/result.dart';
 // import 'package:google_maps_widget/google_maps_widget.dart';
 // import 'package:riverpod_annotation/riverpod_annotation.dart';
 // import '../../../../../core/services/LocationService/location_service.dart';
@@ -37,8 +37,8 @@
 //   }
 // }
 
-import 'package:go_find_taxi/modules/transit/data/models/transport_place_model.dart';
-import 'package:go_find_taxi/modules/transit/data/repositories/remote/i_route_remote.dart';
+import 'package:weyalaw/modules/transit/data/models/transport_place_model.dart';
+import 'package:weyalaw/modules/transit/data/repositories/remote/i_route_remote.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 

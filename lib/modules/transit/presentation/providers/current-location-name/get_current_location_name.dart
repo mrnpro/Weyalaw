@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:go_find_taxi/core/services/LocationService/location_service.dart';
-import 'package:go_find_taxi/core/services/LocationService/models/reverse_geocoding_response.dart';
+import 'package:weyalaw/core/services/LocationService/location_service.dart';
+import 'package:weyalaw/core/services/LocationService/models/reverse_geocoding_response.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 part 'get_current_location_name.g.dart';

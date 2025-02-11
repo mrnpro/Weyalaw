@@ -1,4 +1,4 @@
-import 'package:go_find_taxi/core/handlers/error_handler.dart';
+import 'package:weyalaw/core/handlers/error_handler.dart';
 
 import '../result.dart';
 

@@ -1,11 +1,11 @@
 // import 'package:flutter/material.dart';
 // import 'package:gap/gap.dart';
-// import 'package:go_find_taxi/core/config/theme/color_pallete.dart';
-// import 'package:go_find_taxi/core/constants.dart';
-// import 'package:go_find_taxi/core/services/LocationService/gebeta_maps_impl.dart';
-// import 'package:go_find_taxi/core/utils/index.dart';
-// import 'package:go_find_taxi/modules/transit/core/itinerary.dart';
-// import 'package:go_find_taxi/modules/transit/data/models/plan/plan.dart';
+// import 'package:weyalaw/core/config/theme/color_pallete.dart';
+// import 'package:weyalaw/core/constants.dart';
+// import 'package:weyalaw/core/services/LocationService/gebeta_maps_impl.dart';
+// import 'package:weyalaw/core/utils/index.dart';
+// import 'package:weyalaw/modules/transit/core/itinerary.dart';
+// import 'package:weyalaw/modules/transit/data/models/plan/plan.dart';
 // import 'package:go_router/go_router.dart';
 // import 'package:hooks_riverpod/hooks_riverpod.dart';
 // import 'package:google_maps_flutter/google_maps_flutter.dart';

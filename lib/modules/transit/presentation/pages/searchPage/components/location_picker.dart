@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:gap/gap.dart';
-import 'package:go_find_taxi/_shared/presentation/widgets/app_container.dart';
-import 'package:go_find_taxi/core/config/theme/color_pallete.dart';
-import 'package:go_find_taxi/core/constants/assets.dart';
-import 'package:go_find_taxi/_shared/presentation/widgets/border_less_text_field.dart';
-import 'package:go_find_taxi/core/utils/index.dart';
-import 'package:go_find_taxi/modules/transit/presentation/providers/searchRoute/search_route_notifier.dart';
+import 'package:weyalaw/_shared/presentation/widgets/app_container.dart';
+import 'package:weyalaw/core/config/theme/color_pallete.dart';
+import 'package:weyalaw/core/constants/assets.dart';
+import 'package:weyalaw/_shared/presentation/widgets/border_less_text_field.dart';
+import 'package:weyalaw/core/utils/index.dart';
+import 'package:weyalaw/modules/transit/presentation/providers/searchRoute/search_route_notifier.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 import '../../../../../../core/constants.dart';

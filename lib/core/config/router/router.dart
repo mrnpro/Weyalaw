@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:go_find_taxi/modules/transit/presentation/pages/searchPage/search_page.dart';
+import 'package:weyalaw/modules/transit/presentation/pages/searchPage/search_page.dart';
 import 'package:go_router/go_router.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../../_shared/presentation/widgets/navigation.dart';

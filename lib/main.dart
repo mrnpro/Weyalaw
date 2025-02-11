@@ -2,7 +2,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:go_find_taxi/core/services/index.dart';
+import 'package:weyalaw/core/services/index.dart';
 
 import 'app.dart';
 import 'core/analytics/observers/riverpod_loger.dart';
