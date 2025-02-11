@@ -1,0 +1,19 @@
+{
+    "bricks": {
+        "init_project": {
+            "path": "/Users/mrn/Development/Projects/FlutterProjects/bricks/project_init/"
+        },
+        "model": {
+            "path": "/Users/mrn/Development/Projects/FlutterProjects/bricks/model/"
+        },
+        "module": {
+            "path": "/Users/mrn/Development/Projects/FlutterProjects/bricks/module/"
+        },
+        "page": {
+            "path": "/Users/mrn/Development/Projects/FlutterProjects/bricks/page/"
+        },
+        "provider": {
+            "path": "/Users/mrn/Development/Projects/FlutterProjects/bricks/provider/"
+        }
+    }
+}

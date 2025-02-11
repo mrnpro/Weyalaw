@@ -1,0 +1,11 @@
+bricks:
+  init_project:
+    path: ../bricks/project_init
+  model:
+    path: ../bricks/model
+  module:
+    path: ../bricks/module
+  page:
+    path: ../bricks/page
+  provider:
+    path: ../bricks/provider

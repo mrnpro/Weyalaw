@@ -1,0 +1,18 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "TEAM_ID.com.mrnpro.goFindTaxi",
+        "components": [{
+          "/": "/share-my-location",
+          "comment": "Matches any URL whose path starts with /share-my-location"
+        }],
+        "paths": [ "*" ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": ["TEAM_ID.com.mrnpro.goFindTaxi"]
+  }
+} 

@@ -1,0 +1,4 @@
+enum SearchFocus {
+  from,
+  to,
+}
