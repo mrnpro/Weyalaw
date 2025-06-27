@@ -1,4 +1,5 @@
 import 'package:equatable/equatable.dart';
+import 'package:flutter/material.dart';
 import 'place_entity.dart';
 
 class TransportStepEntity extends Equatable {
