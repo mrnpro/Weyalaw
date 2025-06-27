@@ -28,3 +28,13 @@ class TransportStepEntity extends Equatable {
         price,
       ];
 }
+
+extension TransportStepEntityX on TransportStepEntity {
+  Icon get getActionIcon {
+    final action = this.action.toUpperCase();
+    if (action == 'WALK') {
+      return const Icon(Icons.directions_walk, size: 16);
+    }
+    return const Icon(Icons.directions_bus, size: 16);
+  }
+}

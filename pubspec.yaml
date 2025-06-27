@@ -81,6 +81,7 @@ dependencies:
   firebase_core: ^3.10.0
   firebase_auth: ^5.4.0
   flutter_animate: ^4.5.2
+  share_plus: ^10.1.4
 
 dev_dependencies:
   flutter_test:

@@ -5,8 +5,10 @@ import 'package:weyalaw/core/config/router/route_name.dart';
 import 'package:weyalaw/core/config/theme/color_pallete.dart';
 import 'package:weyalaw/core/constants/assets.dart';
 import 'package:go_router/go_router.dart';
+import 'package:weyalaw/modules/transit/entities/transport_step_entity.dart';
 
 import '../../../../../../_shared/presentation/widgets/app_container.dart';
+import '../../../../../../core/services/share/share_service.dart';
 import '../../../../data/models/transport_place_model.dart';
 import '../../../../entities/transport_option_entity.dart';
 
@@ -48,17 +50,39 @@ class SelectedRouteInformation extends StatelessWidget {
                         )),
                   ],
                 ),
-                Container(
-                  padding: const EdgeInsets.all(10),
-                  decoration: BoxDecoration(
-                    color: ColorPalette.primary.withOpacity(.43),
-                    borderRadius: BorderRadius.circular(5),
+                TextButton(
+                  style: TextButton.styleFrom(
+                    backgroundColor: ColorPalette.primary.withOpacity(.43),
+                    foregroundColor: ColorPalette.primary,
+                    padding: EdgeInsets.zero,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(5),
+                    ),
                   ),
-                  child: const Text("Available after 30 Minutes",
-                      style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        color: ColorPalette.primary,
-                      )),
+                  onPressed: () {
+                    ShareService.share(
+                        title: "Share Route",
+                        shareString:
+                            "Check out the route from ${from.name} to ${to.name}");
+                  },
+                  child: Container(
+                    padding: const EdgeInsets.all(10),
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(5),
+                    ),
+                    child: const Row(
+                      children: [
+                        Icon(Icons.share,
+                            color: ColorPalette.primary, size: 16),
+                        Gap(10),
+                        Text("Share Route",
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              color: ColorPalette.primary,
+                            )),
+                      ],
+                    ),
+                  ),
                 ),
               ],
             ),
@@ -140,23 +164,8 @@ class SelectedRouteInformation extends StatelessWidget {
                               children: [
                                 Row(
                                   children: [
-                                    // Container(
-                                    //   height: 5,
-                                    //   width: 5,
-                                    //   decoration: BoxDecoration(
-                                    //     color: ColorPalette.primary,
-                                    //     borderRadius: BorderRadius.circular(100),
-                                    //   ),
-                                    // ),
-                                    // (itineraryLeg.transportMode ==
-                                    //         TransportMode.walk)
-                                    //     ? const Icon(Icons.directions_walk,
-                                    //         size: 16)
-                                    //     :
-
-                                    const Icon(Icons.directions_bus, size: 16),
+                                    step.getActionIcon,
                                     const Gap(10),
-
                                     SizedBox(
                                       width: size.width / 6,
                                       child: Text(step.fromPlace.name,
@@ -176,7 +185,7 @@ class SelectedRouteInformation extends StatelessWidget {
                                     ),
                                   ],
                                 ),
-                                Text(step.price.toString(),
+                                Text("${step.price} ETB",
                                     style: const TextStyle(
                                       fontSize: 15,
                                     )),
