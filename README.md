@@ -74,8 +74,8 @@ The project utilizes Google Maps API for the following services:
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/weyalaw.git
-cd weyalaw
+git clone https://github.com/mrnpro/Weyalaw.git
+cd Weyalaw
 ```
 
 2. Create environment files:
